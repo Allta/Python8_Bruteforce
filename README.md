@@ -75,5 +75,6 @@ Les configurations Wifi se trouvent dans `/etc/NetworkManager/system-connections
 
 Se fichier est uniquement accessible en **root**. 
 
+**Si vous êtes sur une VM, vous pouvez copier les 2 fichiers BBox et EduWifi dans le dossier /etc/NetworkManager/system-connections/ pour continuer de travailler sur Linux** 
 
  
