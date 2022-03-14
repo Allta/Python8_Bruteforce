@@ -2,11 +2,14 @@
 import hashlib
 import requests 
 
-# Aller chercher le dictionnaire sur l'url  
+# Aller chercher le dictionnaire sur l'url via la librairie requests
+# Il faut retourner une liste contenant le contenu de la page web 
 def readwordlist(url):
  
 
 #Fonction permettant de hasher le password pour le tester contre le password à trouver
+#elle va hasher ce qu'on lui donne en input via la librairie hashlib
+#Vous pouvez choisir la méthode hash que vous voulez mais sha1 est rapide et efficace pour ce tp
 def hash(wordlistpassword):
 #    return result.hexdigest()
  
