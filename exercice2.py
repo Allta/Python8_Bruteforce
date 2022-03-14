@@ -17,17 +17,15 @@ def hash(wordlistpassword):
 def bruteforce(guesspasswordlist, actual_password_hash):
     #Check si le password hashé est le même que password à trouver
  
-############# append the below code ################ 
-
 url = 'https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/Real-Passwords/Top12Thousand-probable-v2.txt'
+#Choississez le mot de passe que vous voulez 
 actual_password = 'volleyball'
 actual_password_hash = hash(actual_password)
 
 #Recuperation de la liste des passwords
-
-guesspasswordlist= 
+liste_password=
 
 # Attaque Bruteforce
-bruteforce(guesspasswordlist, actual_password_hash)
+bruteforce(X, Y)
  
  
